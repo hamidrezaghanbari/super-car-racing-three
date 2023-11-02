@@ -1,0 +1,94 @@
+
+.interface {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+.time {
+    position: absolute;
+    top: 15%;
+    right: 77%;
+    width: 25%;
+    color: #ffffff;
+    font-size: 6vh;
+    background: #00000033;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.collisions {
+    position: absolute;
+    top: 5%;
+    right: 77%;
+    width: 25%;
+    color: #ffffff;
+    font-size: 6vh;
+    background: #00000033;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.restart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 80px;
+    background: #00000033;
+    padding-top: 10px;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.result {
+    padding: 0 50px;
+}
+
+.failure-result {
+    color: rgb(201, 18, 18);
+}
+
+.success-result {
+    color: rgb(14, 242, 14);
+}
+
+
+.controls {
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    width: 100%;
+}
+
+.controls .raw {
+    display: flex;
+    justify-content: center;
+}
+
+.controls .key {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border: 2px solid #ffffff;
+    background: #ffffff44;
+}
+
+.controls .key.large {
+    width: 144px;
+}
+
+.controls .key.active {
+    background: #ffffff99;
+}
